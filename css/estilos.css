@@ -76,11 +76,6 @@
         background: -webkit-linear-gradient(45deg, #ffa800 0%, #ee8165 100%);
         background: linear-gradient(45deg, #ffa800 0%, #ee8165 100%);
         background-size: cover;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    .texto-sobremi {
         display: flex;
         margin: 10px;
         font-weight: 600;
@@ -89,6 +84,24 @@
         align-items: center;
         justify-content: center;
     }
+    @media(min-width:576px){
+    .texto-sobremi{
+      color: #ff8c00;
+      background: #ffa800;
+      background: -webkit-linear-gradient(45deg, #ffa800 0%, #ee8165 100%);
+      background: linear-gradient(45deg, #ffa800 0%, #ee8165 100%);
+      background-size: cover;
+      display: flex;
+      margin: 10px;
+      font-weight: 600;
+      font-size: 90px;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
    
     .informacion h4{
       font-family: 'Lato', sans-serif;
@@ -181,7 +194,6 @@ margin-top: 100px;
 .servicios .title{
 
   color: #333;
-
 
   display: block;
 
