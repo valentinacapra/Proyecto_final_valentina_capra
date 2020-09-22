@@ -11,6 +11,11 @@
   background-attachment: fixed;
  
 }
+@media (max-width: 600px) {
+  .header .navbar {
+    background-color:white;
+  }
+}
 
 .header .navbar {
   background-color: transparent !important;
