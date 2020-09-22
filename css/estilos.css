@@ -16,6 +16,12 @@
     background-color:white;
   }
 }
+@media (max-width: 600px) {
+  #nav{
+    margin: 0;
+   
+  }
+}
 
 .header .navbar {
   background-color: transparent !important;
