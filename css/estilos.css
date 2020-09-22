@@ -19,6 +19,11 @@
 @media (max-width: 600px) {
   #nav{
     margin: 0;
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 600px;
    
   }
 }
