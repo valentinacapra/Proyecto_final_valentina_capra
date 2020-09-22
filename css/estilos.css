@@ -43,6 +43,28 @@
     text-align: center;
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+    @media (max-width: 600px) {
+      #fondo h1{
+        font-family: 'MuseoModerno', cursive;
+        font-size: 50px;
+        font-weight: 500;
+        color: #181413ee;
+        padding-top: 200px;
+        text-align: center;
+        -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+      }
+      @media (max-width: 600px) {
+        #fondo h2{
+          font-family: 'MuseoModerno', cursive;
+          font-size: 30px;
+          font-weight: 500;
+          color: #181413ee;
+          text-align: center;
+          -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+          animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        }
+      }
     /*Sobre Mi*/
     .sobremi-contenedor{
       padding: 60px 0;
