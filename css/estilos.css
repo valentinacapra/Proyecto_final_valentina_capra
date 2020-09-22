@@ -12,6 +12,7 @@
  
 }
 
+
 .header .navbar {
   background-color: transparent !important;
 }
@@ -130,7 +131,7 @@
   font-family: 'Kufam', cursive;
     font-size: 40px;
     font-weight: 500;
-    color:  #252524ee;
+    color: #00B3FF;
     text-align: center;
     margin: 20px 0 25px 0;
     -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -199,7 +200,7 @@ margin-top: 100px;
 
 .servicios .title{
 
-  color: #00B3FF;
+  color: #333;
 
   display: block;
 
