@@ -82,11 +82,10 @@
       width: 100%;
     }
     .grid
-    {
-        display: grid;
+    { display: grid;
           grid-template-columns: repeat(12, 1fr);
           height: 100%;
-          margin: auto;
+          margin-left:45px;
           grid-gap: 10px;
           overflow: hidden;
           align-items: center;
