@@ -107,6 +107,9 @@
   
 
 /*Trabajos*/
+#trabajos{
+  background-color: #D385FF;
+}
 .titulo-trabajos h1{
   font-family: 'Kufam', cursive;
     font-size: 40px;
