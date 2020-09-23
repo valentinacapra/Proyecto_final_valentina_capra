@@ -67,11 +67,6 @@
         }
       }
     /*Sobre Mi*/
-    .sobremi-contenedor{
-      padding: 60px 0;
-    margin: auto;
-    overflow: hidden;
-    }
     #sobremi{
       display: flex;
       background-color: wheat;
@@ -84,7 +79,7 @@
     }
     .grid
     { display: grid;
-          grid-template-columns: repeat(12, 1fr);
+          grid-template-columns: repeat(6, 1fr);
           height: 100%;
           margin-left:45px;
           grid-gap: 5px;
