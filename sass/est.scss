@@ -235,8 +235,12 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
       }
-      #contacto input,textarea
-  {
+     
+    
+  }
+  
+  #contacto input,
+  textarea {
     height: 40px;
     width: 100%;
     margin: 5px auto;
@@ -255,10 +259,6 @@
   #contacto textarea {
     height: inherit;
   }
-    
-  }
-  
- 
   #texto-nombre{
     grid-column: 1;
     padding: 15px 15px 0;}
