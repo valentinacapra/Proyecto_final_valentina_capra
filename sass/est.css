@@ -73,30 +73,11 @@
 }
 
 /*Sobre Mi*/
-#sobremi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+section #container {
   background-color: wheat;
-  height: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: relative;
   width: 100%;
   height: 800px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  height: 100%;
-  margin-left: 45px;
-  grid-gap: 5px;
-  
 }
 
 .informacion h4 {
