@@ -259,8 +259,7 @@
       grid-template-rows: auto;
 }
 
-#contacto input,
-textarea {
+#contacto #contacto input, #contacto textarea {
   height: 40px;
   width: 100%;
   margin: 5px auto;
@@ -270,13 +269,13 @@ textarea {
   font-family: 'Montserrat', sans-serif;
 }
 
-#contacto input[placeholder] {
+#contacto #contacto input[placeholder] {
   font-family: 'Montserrat', sans-serif;
   padding: 0 0 0 15px;
   font-size: 16px;
 }
 
-#contacto textarea {
+#contacto #contacto textarea {
   height: inherit;
 }
 
