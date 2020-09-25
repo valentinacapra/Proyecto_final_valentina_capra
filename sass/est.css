@@ -218,16 +218,17 @@
   margin: 0 auto 20px;
   padding-bottom: 20px;
   position: relative;
-  text-align: justify;
+  text-align: center;
   text-transform: uppercase;
   width: 190px;
 }
 
 .servicios .servicios .descripcion {
-  color: grey;
-  padding: 25px;
+  color: #626262;
+  padding: 0 45px 0 45px;
   font-family: 'Kufam', cursive;
   font-size: 14px;
+  text-align: left;
 }
 
 /*contacto*/
