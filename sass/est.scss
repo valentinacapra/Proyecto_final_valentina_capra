@@ -67,7 +67,7 @@
         }
       }
        /*Sobre Mi*/
-       
+
         .informacion h4{
             font-family: 'Lato', sans-serif;
             font-size: 30px;
@@ -87,7 +87,7 @@
           }
           .informacion p{
             font-family: 'Lato', sans-serif;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 400;
             color: rgb(0, 0, 0);
             @media (max-width: 500px) {
@@ -114,16 +114,16 @@
       margin: 20px 0 25px 0;
       -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
               animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-              .titulo-trabajos p{
-                font-family: 'Lato', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-                color: #252524ee;
-                text-align: center;
-                margin: 20px 0 25px 0;
-              }
+             
   }
-  
+  .titulo-trabajos p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #252524ee;
+    text-align: center;
+    margin: 20px 0 25px 0;
+  }
   
   .trabajos-contenedor{
     display: flex;
