@@ -235,30 +235,30 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
       }
-      #contacto input,
-      textarea {
-        height: 40px;
-        width: 100%;
-        margin: 5px auto;
-        border-radius: 5px;
-        border: none;
-        font-size: 16px;
-        font-family: 'Montserrat', sans-serif;
-      }
-
-      #contacto input[placeholder] {
-        font-family: 'Montserrat', sans-serif;
-        padding: 0 0 0 15px;
-        font-size: 16px;
-      }
-      
-      #contacto textarea {
-        height: inherit;
-      }
+     
     
   }
   
+  #contacto input,
+  textarea {
+    height: 40px;
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #contacto input[placeholder] {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 0 15px;
+    font-size: 16px;
+  }
   
+  #contacto textarea {
+    height: inherit;
+  }
   #texto-nombre{
     grid-column: 1;
     padding: 15px 15px 0;}
