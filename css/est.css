@@ -68,14 +68,14 @@
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  color: orange; }
+  color: #e25c61; }
 
 @media (max-width: 500px) {
   .titulo-infor {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: orange; } }
+    color: #e25c61; } }
 
 .informacion p {
   font-family: 'Lato', sans-serif;
