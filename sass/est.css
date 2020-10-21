@@ -21,7 +21,8 @@
 
 .nav-link {
   color: white;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 22px;
 }
@@ -39,7 +40,8 @@
 
 @media (max-width: 600px) {
   #fondo h1 #fondo h1 {
-    font-family: 'Bitter', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Merriweather', serif;
     font-size: 50px;
     font-weight: 500;
     color: #181413ee;
@@ -51,7 +53,8 @@
 }
 
 #fondo h2 {
-  font-family: 'Bitter', serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Merriweather', serif;
   font-size: 60px;
   font-weight: 500;
   color: #181413ee;
