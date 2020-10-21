@@ -114,7 +114,8 @@ font-family: 'Merriweather', serif;
           }
           .Sobre{
             margin-top: 100px;
-              text-align: justify;
+              text-align: center;
+              background-color: #e25c61;
               @media screen and (max-width:1000px){
             
                   .Sobre{
@@ -124,6 +125,13 @@ font-family: 'Merriweather', serif;
                   }
                 
                 }
+              .Sobre .icono{
+                  display: inline-block;
+                  width: 190px;
+                  height: 150px;
+                  margin-bottom: 20px;
+                  
+                  }
                   .Sobre .title{
                       color: #333;
                       display: block;
