@@ -118,20 +118,13 @@
 
 .Sobre {
   margin-top: 100px;
-  text-align: center;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1000px) {
   .Sobre .Sobre {
     margin-bottom: 30px;
   }
-}
-
-.Sobre .Sobre .icono {
-  display: inline-block;
-  width: 190px;
-  height: 150px;
-  margin-bottom: 20px;
 }
 
 .Sobre .Sobre .title {
