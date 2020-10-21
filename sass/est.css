@@ -27,7 +27,7 @@
 }
 
 #fondo h1 {
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Bitter', serif;
   font-size: 100px;
   font-weight: 500;
   color: #181413ee;
@@ -39,7 +39,7 @@
 
 @media (max-width: 600px) {
   #fondo h1 #fondo h1 {
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Bitter', serif;
     font-size: 50px;
     font-weight: 500;
     color: #181413ee;
@@ -51,7 +51,7 @@
 }
 
 #fondo h2 {
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Bitter', serif;
   font-size: 60px;
   font-weight: 500;
   color: #181413ee;
@@ -62,7 +62,7 @@
 
 @media (max-width: 600px) {
   #fondo h2 {
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Bitter', serif;
     font-size: 30px;
     font-weight: 500;
     color: #181413ee;

@@ -22,7 +22,7 @@
   font-size: 22px; }
 
 #fondo h1 {
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Bitter', serif;
   font-size: 100px;
   font-weight: 500;
   color: #181413ee;
@@ -32,7 +32,7 @@
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
   @media (max-width: 600px) {
     #fondo h1 #fondo h1 {
-      font-family: 'MuseoModerno', cursive;
+      font-family: 'Bitter', serif;
       font-size: 50px;
       font-weight: 500;
       color: #181413ee;
@@ -42,7 +42,7 @@
       animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; } }
 
 #fondo h2 {
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Bitter', serif;
   font-size: 60px;
   font-weight: 500;
   color: #181413ee;
@@ -52,7 +52,7 @@
 
 @media (max-width: 600px) {
   #fondo h2 {
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Bitter', serif;
     font-size: 30px;
     font-weight: 500;
     color: #181413ee;
