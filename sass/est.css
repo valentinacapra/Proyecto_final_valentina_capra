@@ -78,7 +78,7 @@
 }
 
 .informacion h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 30px;
   font-weight: 500;
   color: #e25c61;
@@ -86,7 +86,7 @@
 
 @media (max-width: 500px) {
   .titulo-infor {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 20px;
     font-weight: 500;
     color: #e25c61;
@@ -94,7 +94,7 @@
 }
 
 .informacion p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 18px;
   font-weight: 400;
   color: black;
@@ -102,7 +102,7 @@
 
 @media (max-width: 500px) {
   .informacion p .informacion p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 10px;
     font-weight: 400;
     color: black;
@@ -126,7 +126,7 @@
 }
 
 .titulo-trabajos p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: 400;
   color: #252524ee;
@@ -306,7 +306,7 @@ footer {
 
 .text-footer {
   float: right;
-  font-family: "Lato", sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 500;
   color: white;
 }
