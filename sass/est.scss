@@ -82,7 +82,7 @@ font-family: 'Merriweather', serif;
           font-family: 'DM Serif Display', serif;
           font-family: 'Merriweather', serif;
             font-size: 30px;
-            font-weight: ;
+            font-weight: 500;
             color:#e25c61;
             
       
@@ -97,7 +97,7 @@ font-family: 'Merriweather', serif;
             }
           }
           .informacion p{
-            font-family: 'Merriweather', serif;
+            font-family: 'Bitter', serif;
             font-size: 18px;
             font-weight: 400;
             color: rgb(0, 0, 0);
@@ -123,6 +123,12 @@ font-family: 'Merriweather', serif;
                 color: #e25c61;
                 text-align:center;
                 font-family: 'Merriweather', serif;
+                font-weight: 500%;
+              }
+              .descripcion{
+                color: #ffffff;
+                text-align:center;
+                font-family: 'Bitter', serif;
                 font-weight: 500%;
               }
               @media screen and (max-width:1000px){

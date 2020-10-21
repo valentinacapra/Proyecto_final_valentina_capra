@@ -85,7 +85,7 @@
     color: #e25c61; } }
 
 .informacion p {
-  font-family: 'Merriweather', serif;
+  font-family: 'Bitter', serif;
   font-size: 18px;
   font-weight: 400;
   color: black; }
@@ -107,13 +107,18 @@
     text-align: center;
     font-family: 'Merriweather', serif;
     font-weight: 500%; }
+  .Sobre .descripcion {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: 500%; }
   @media screen and (max-width: 1000px) {
     .Sobre .Sobre {
       margin-bottom: 30px; } }
   .Sobre .Sobre.descripcion {
     color: white;
     padding: 0 45px 0 45px;
-    font-family: 'Bitter', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     text-align: left; }
 
