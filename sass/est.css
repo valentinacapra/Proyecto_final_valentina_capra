@@ -82,6 +82,7 @@
 /*Sobre Mi*/
 .informacion {
   padding: 25px;
+  color: #ecbd57;
 }
 
 .informacion h4 {
@@ -118,11 +119,11 @@
 }
 
 .Sobre {
-  margin-top: 100px;
   text-align: center;
   background-color: #f2cfc6;
   height: 380px;
   padding: 15px;
+  margin-bottom: 55px;
 }
 
 .Sobre .title {
