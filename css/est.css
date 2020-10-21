@@ -71,6 +71,7 @@
   padding: 25px; }
 
 .informacion h4 {
+  font-family: 'DM Serif Display', serif;
   font-family: 'Merriweather', serif;
   font-size: 30px;
   font-weight: 500;
@@ -101,15 +102,18 @@
   background-color: #f2cfc6;
   height: 380px;
   padding: 15px; }
-  .Sobre .title-Sobre {
-    color: #e25c61; }
+  .Sobre .title {
+    color: #e25c61;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500%; }
   @media screen and (max-width: 1000px) {
     .Sobre .Sobre {
       margin-bottom: 30px; } }
   .Sobre .Sobre.descripcion {
     color: white;
     padding: 0 45px 0 45px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Bitter', serif;
     font-size: 14px;
     text-align: left; }
 

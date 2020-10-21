@@ -79,9 +79,10 @@ font-family: 'Merriweather', serif;
 }
 
         .informacion h4{
+          font-family: 'DM Serif Display', serif;
           font-family: 'Merriweather', serif;
             font-size: 30px;
-            font-weight: 500;
+            font-weight: ;
             color:#e25c61;
             
       
@@ -118,8 +119,11 @@ font-family: 'Merriweather', serif;
               background-color: #f2cfc6;
               height: 380px;
               padding: 15px;
-              .title-Sobre{
+              .title{
                 color: #e25c61;
+                text-align:center;
+                font-family: 'Merriweather', serif;
+                font-weight: 500%;
               }
               @media screen and (max-width:1000px){
             
