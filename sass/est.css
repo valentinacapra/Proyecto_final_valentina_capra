@@ -72,6 +72,10 @@
   }
 }
 
+.img-fluid {
+  border-radius: 50%;
+}
+
 /*Sobre Mi*/
 .informacion {
   padding: 25px;

@@ -66,6 +66,9 @@
           animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
         }
       }
+      .img-fluid{
+        border-radius: 50%;
+      }
        /*Sobre Mi*/
 .informacion{
     padding: 25px;
