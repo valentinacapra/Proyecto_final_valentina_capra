@@ -26,7 +26,7 @@
   font-family: 'Bitter', serif;
   font-size: 100px;
   font-weight: 500;
-  color: #181413ee;
+  color: #333333;
   padding-top: 200px;
   text-align: center;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -37,7 +37,7 @@
       font-family: 'Merriweather', serif;
       font-size: 50px;
       font-weight: 500;
-      color: #181413ee;
+      color: #333333;
       padding-top: 200px;
       text-align: center;
       -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -48,7 +48,7 @@
   font-family: 'Merriweather', serif;
   font-size: 60px;
   font-weight: 500;
-  color: #181413ee;
+  color: #333333;
   text-align: center;
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
@@ -58,7 +58,7 @@
     font-family: 'Bitter', serif;
     font-size: 30px;
     font-weight: 500;
-    color: #181413ee;
+    color: #333333;
     text-align: center;
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
@@ -101,19 +101,11 @@
   background-color: #f2cfc6;
   height: 380px;
   padding: 15px; }
+  .Sobre .title-Sobre {
+    color: #e25c61; }
   @media screen and (max-width: 1000px) {
     .Sobre .Sobre {
       margin-bottom: 30px; } }
-  .Sobre .Sobre .title {
-    color: white;
-    display: block;
-    line-height: 30px;
-    margin: 0 auto 20px;
-    padding-bottom: 20px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    width: 190px; }
   .Sobre .Sobre.descripcion {
     color: white;
     padding: 0 45px 0 45px;
@@ -253,7 +245,7 @@ textarea {
   color: #ffffff;
   margin: 25px auto;
   border: none;
-  height: 80px;
+  height: 40px;
   border-radius: 5px;
   background: #ecbd57;
   margin: 5px auto;
@@ -268,7 +260,7 @@ textarea {
 footer {
   width: 100%;
   margin-top: 10px;
-  height: 70px;
+  height: 150px;
   background-color: #ecbd57; }
 
 .text-footer {
