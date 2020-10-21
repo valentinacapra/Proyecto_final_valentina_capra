@@ -84,12 +84,6 @@
   padding: 25px;
 }
 
-.rosa {
-  height: 300px;
-  width: 40%;
-  background-color: #e25c61;
-}
-
 .informacion h4 {
   font-family: 'Merriweather', serif;
   font-size: 30px;
@@ -120,6 +114,44 @@
     font-weight: 400;
     color: black;
   }
+}
+
+.Sobre {
+  margin-top: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .Sobre .Sobre {
+    margin-bottom: 30px;
+  }
+}
+
+.Sobre .Sobre .icono {
+  display: inline-block;
+  width: 190px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.Sobre .Sobre .title {
+  color: #333;
+  display: block;
+  line-height: 30px;
+  margin: 0 auto 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 190px;
+}
+
+.Sobre .Sobre.descripcion {
+  color: #626262;
+  padding: 0 45px 0 45px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  text-align: left;
 }
 
 /*Trabajos*/
