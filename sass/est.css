@@ -186,25 +186,14 @@
   background-color: #f6e7e0;
 }
 
-#trabajos .titulo-trabajos h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  color: #00B3FF;
+#trabajos .tittrab {
+  font-family: 'Bitter', serif;
+  font-size: 30px;
   text-align: center;
-  margin: 20px 0 25px 0;
+  margin-left: 30px;
 }
 
-#trabajos .titulo-trabajos p {
-  font-family: 'Merriweather', serif;
-  font-size: 20px;
-  font-weight: 400;
-  color: #252524ee;
-  text-align: center;
-  margin: 20px 0 25px 0;
-}
-
-.trabajos-contenedor {
+#trabajos .trabajos-contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -218,7 +207,7 @@
   margin: auto;
 }
 
-.trabajos-contenedor .trabajosImg {
+#trabajos .trabajos-contenedor .trabajosImg {
   width: 400px;
   height: 300px;
   margin-bottom: 30px;
@@ -520,65 +509,6 @@ textarea {
   100% {
     letter-spacing: normal;
     opacity: 1;
-  }
-}
-
-@-webkit-keyframes wobble-hor-bottom {
-  0%,
-  100% {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-  }
-  15% {
-    -webkit-transform: translateX(-30px) rotate(-6deg);
-    transform: translateX(-30px) rotate(-6deg);
-  }
-  30% {
-    -webkit-transform: translateX(15px) rotate(6deg);
-    transform: translateX(15px) rotate(6deg);
-  }
-  45% {
-    -webkit-transform: translateX(-15px) rotate(-3.6deg);
-    transform: translateX(-15px) rotate(-3.6deg);
-  }
-  60% {
-    -webkit-transform: translateX(9px) rotate(2.4deg);
-    transform: translateX(9px) rotate(2.4deg);
-  }
-  75% {
-    -webkit-transform: translateX(-6px) rotate(-1.2deg);
-    transform: translateX(-6px) rotate(-1.2deg);
-  }
-}
-
-@-webkit-keyframes shake-horizontal {
-  0%,
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  10%,
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateX(-10px);
-    transform: translateX(-10px);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
-  }
-  80% {
-    -webkit-transform: translateX(8px);
-    transform: translateX(8px);
-  }
-  90% {
-    -webkit-transform: translateX(-8px);
-    transform: translateX(-8px);
   }
 }
 /*# sourceMappingURL=est.css.map */
