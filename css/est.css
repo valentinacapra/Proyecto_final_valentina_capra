@@ -219,7 +219,8 @@
   background: #ed9a91;
   margin: 0;
   padding: 0 15px 45px;
-  color: #ffffff; }
+  color: #ffffff;
+  height: 800px; }
   #contacto #contacto h2 {
     text-align: center;
     margin: 45px 0 0;
