@@ -267,7 +267,9 @@ font-weight: 400;
 
   }
   .seccion1{
-    background-image: url(../imagenes/1.png);
+    width: 100%;
+    height: auto;
+   
   }
   
   /*contacto*/
@@ -368,7 +370,17 @@ font-weight: 400;
   
   
  /*Footer*/
-
+footer{
+  background-image: url(../imagenes/footer.png);
+  @media screen and (max-width:576px){
+  
+    footer{
+      background-image: url(../imagenes/576.png);
+    }
+   
+   }
+}
+ 
    /*animaciones*/
    @-webkit-keyframes text-focus-in {
     0% {
