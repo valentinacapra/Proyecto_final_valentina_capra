@@ -63,13 +63,14 @@
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
 
-.img-fluid {
-  border-radius: 50%; }
-
 /*Sobre Mi*/
 .informacion {
-  padding: 25px;
-  color: #ecbd57; }
+  padding: 55px;
+  background-color: #f2cfc6; }
+
+.img-fluid {
+  margin-top: 35px;
+  background-color: #efe7e1; }
 
 .informacion h4 {
   font-family: 'DM Serif Display', serif;
