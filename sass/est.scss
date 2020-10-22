@@ -12,7 +12,7 @@
      
       #nav{
         margin: 0;
-        background-image:url(../imagenes/porta320.png);
+        background-color: chartreuse;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -22,7 +22,7 @@
      
       #nav{
         margin: 0;
-        background-image:url(../imagenes/porta56.png);
+        background-color: chartreuse;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -55,7 +55,7 @@
     animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
     
   }
-  @media (max-width: 320px) {
+  @media (min-width: 375px) {
     #fondo h1 {
       font-family: 'Rozha One', serif;
       font-size: 50px;
