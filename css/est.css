@@ -129,6 +129,16 @@
     font-size: 14px;
     text-align: left; }
 
+.productos-digitales {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin-top: 45px;
+  padding: 50px; }
+  .productos-digitales .title {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: #95cbfa; }
+
 /*Trabajos*/
 #trabajos {
   background-color: #f6e7e0; }
