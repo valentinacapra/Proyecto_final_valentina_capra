@@ -31,7 +31,16 @@
     background-attachment: fixed;
 }
 }
-
+@media (min-width: 400px) and (max-width: 670px) {
+ 
+  #nav{
+    margin: 0;
+    background-image:url(../imagenes/porta56.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
 @media (min-width: 576px) and (max-width: 1000px) and (orientation: landscape){
   #nav{
     margin: 0;
