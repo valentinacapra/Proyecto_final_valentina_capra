@@ -280,6 +280,7 @@ font-family: 'Merriweather', serif;
    .titulo-contacto{
     font-family: 'Bitter', serif;
     text-align: center;
+    padding:10px;
    }
    .inf-contacto{
     font-family: 'Bitter', serif;
@@ -327,13 +328,16 @@ font-family: 'Merriweather', serif;
     height: inherit;
   }
   #texto-nombre{
+    font-family: 'Bitter', serif;
     grid-column: 1;
     padding: 15px 15px 0;}
   #texto-email{
+    font-family: 'Bitter', serif;
     grid-column: 1;
     padding: 15px 15px 0;
   }
   #texto-mensaje{
+    font-family: 'Bitter', serif;
     grid-column: 1;
     padding: 15px 15px 0;
   }

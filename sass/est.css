@@ -282,6 +282,7 @@
 #contacto .titulo-contacto {
   font-family: 'Bitter', serif;
   text-align: center;
+  padding: 10px;
 }
 
 #contacto .inf-contacto {
@@ -332,18 +333,21 @@ textarea {
 }
 
 #texto-nombre {
+  font-family: 'Bitter', serif;
   -ms-grid-column: 1;
   grid-column: 1;
   padding: 15px 15px 0;
 }
 
 #texto-email {
+  font-family: 'Bitter', serif;
   -ms-grid-column: 1;
   grid-column: 1;
   padding: 15px 15px 0;
 }
 
 #texto-mensaje {
+  font-family: 'Bitter', serif;
   -ms-grid-column: 1;
   grid-column: 1;
   padding: 15px 15px 0;

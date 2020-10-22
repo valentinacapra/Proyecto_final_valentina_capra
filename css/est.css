@@ -223,7 +223,8 @@
   height: 800px; }
   #contacto .titulo-contacto {
     font-family: 'Bitter', serif;
-    text-align: center; }
+    text-align: center;
+    padding: 10px; }
   #contacto .inf-contacto {
     font-family: 'Bitter', serif;
     text-align: center; }
@@ -259,14 +260,17 @@ textarea {
   height: inherit; }
 
 #texto-nombre {
+  font-family: 'Bitter', serif;
   grid-column: 1;
   padding: 15px 15px 0; }
 
 #texto-email {
+  font-family: 'Bitter', serif;
   grid-column: 1;
   padding: 15px 15px 0; }
 
 #texto-mensaje {
+  font-family: 'Bitter', serif;
   grid-column: 1;
   padding: 15px 15px 0; }
 
