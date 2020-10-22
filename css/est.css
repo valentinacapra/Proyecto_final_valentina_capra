@@ -26,41 +26,43 @@
 
 #fondo h1 {
   font-family: 'Rozha One', serif;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 500;
   color: #333333;
   padding-top: 200px;
   text-align: center;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-  @media (max-width: 400px) {
-    #fondo h1 #fondo h1 {
-      font-family: 'Rozha One', serif;
-      font-size: 50px;
-      font-weight: 500;
-      color: #fffefe;
-      padding-top: 200px;
-      text-align: center;
-      -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-      animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; } }
+
+@media (max-width: 3200px) {
+  #fondo h1 {
+    font-family: 'Rozha One', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fffefe;
+    padding-top: 200px;
+    text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; } }
 
 #fondo h2 {
   font-family: 'Rozha One', serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
   color: #333333;
   text-align: center;
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
-  @media (max-width: 400px) {
-    #fondo h2 #fondo h2 {
-      font-family: 'Rozha One', serif;
-      font-size: 10px;
-      font-weight: 500;
-      color: #ffffff;
-      text-align: center;
-      -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-      animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
+
+@media (max-width: 320px) {
+  #fondo h2 {
+    font-family: 'Rozha One', serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
 
 /*Sobre Mi*/
 .informacion {
