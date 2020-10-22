@@ -11,6 +11,12 @@
   background-attachment: fixed;
 }
 
+@media (max-width: 700px) {
+  #nav #nav {
+    background-image: url(../imagenes/porta576.png);
+  }
+}
+
 .header .navbar {
   background-color: transparent !important;
 }
@@ -37,12 +43,12 @@
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 400px) {
   #fondo h1 #fondo h1 {
     font-family: 'Rozha One', serif;
     font-size: 50px;
     font-weight: 500;
-    color: #333333;
+    color: #fffefe;
     padding-top: 200px;
     text-align: center;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
@@ -60,24 +66,12 @@
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-@media (max-width: 600px) {
-  #fondo h2 #fondo h2 {
-    font-family: 'Rozha One', serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: #333333;
-    text-align: center;
-    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  }
-}
-
-@media (max-width: 376px) {
+@media (max-width: 400px) {
   #fondo h2 #fondo h2 {
     font-family: 'Rozha One', serif;
     font-size: 10px;
     font-weight: 500;
-    color: #333333;
+    color: #ffffff;
     text-align: center;
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
     animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
