@@ -141,7 +141,7 @@
 
 /*Trabajos*/
 #trabajos {
-  background-color: #f6e7e0; }
+  background-image: url(../imagenes/fondo.png); }
   #trabajos .text-trab {
     font-family: 'Rozha One', serif;
     font-weight: 400;
