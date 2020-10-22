@@ -221,14 +221,20 @@
   padding: 0 15px 45px;
   color: #ffffff;
   height: 800px; }
+  #contacto .titulo-contacto {
+    font-family: 'Bitter', serif;
+    text-align: center; }
+  #contacto .inf-contacto {
+    font-family: 'Bitter', serif;
+    text-align: center; }
   #contacto #contacto h2 {
     text-align: center;
     margin: 45px 0 0;
     padding: 45px 0 20px 0;
-    font-family: 'Quicksand', sans-serif; }
+    font-family: 'Bitter', serif; }
   #contacto #contacto p {
     text-align: center;
-    font-family: 'Quicksand', sans-serif; }
+    font-family: 'Bitter', serif; }
   #contacto #contacto form {
     display: grid;
     grid-template-columns: 1fr;
@@ -242,10 +248,10 @@ textarea {
   border-radius: 5px;
   border: none;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Bitter', serif; }
 
 #contacto input[placeholder] {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bitter', serif;
   padding: 0 0 0 15px;
   font-size: 16px; }
 
