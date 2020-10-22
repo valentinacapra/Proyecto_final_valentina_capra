@@ -285,10 +285,7 @@ textarea {
 
 /*Footer*/
 footer {
-  width: 100%;
-  margin-top: 10px;
-  height: 150px;
-  background-image: url(../imagenes/f); }
+  background-image: url(../imagenes/footer.png); }
 
 .text-footer {
   float: right;
