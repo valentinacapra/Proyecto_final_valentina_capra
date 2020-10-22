@@ -72,13 +72,14 @@ font-family: 'Merriweather', serif;
      
        /*Sobre Mi*/
 .informacion{
+  margin-top: 50px;
     padding: 55px;
     background-color: #f2cfc6;
   
 }
 .img-fluid{
-  margin-top:35px ;
-  background-color: #efe7e1;
+  margin-top:85px ;
+  
 }
         .informacion h4{
           font-family: 'DM Serif Display', serif;
@@ -357,7 +358,7 @@ footer {
     width: 100%;
     margin-top: 10px;
     height: 150px;
-   background-color: #ecbd57;
+   background-image:url(../imagenes/f);
   }
   .text-footer {
     float: right;
