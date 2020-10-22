@@ -186,18 +186,16 @@
   background-color: #f6e7e0;
 }
 
-.titulo-trabajos h1 {
+#trabajos .titulo-trabajos h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 40px;
   font-weight: 500;
   color: #00B3FF;
   text-align: center;
   margin: 20px 0 25px 0;
-  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
-.titulo-trabajos p {
+#trabajos .titulo-trabajos p {
   font-family: 'Merriweather', serif;
   font-size: 20px;
   font-weight: 400;
