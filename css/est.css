@@ -284,15 +284,6 @@ textarea {
   color: white; }
 
 /*Footer*/
-footer {
-  background-image: url(../imagenes/footer.png); }
-
-.text-footer {
-  float: right;
-  font-family: 'Merriweather', serif;
-  font-weight: 500;
-  color: white; }
-
 /*animaciones*/
 @-webkit-keyframes text-focus-in {
   0% {
