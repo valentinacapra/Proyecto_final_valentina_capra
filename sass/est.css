@@ -267,6 +267,12 @@
   text-align: left;
 }
 
+#hola {
+  background-color: chartreuse;
+  height: 300px;
+  width: auto;
+}
+
 /*contacto*/
 #contacto {
   background: #ed9a91;
