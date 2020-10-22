@@ -4,10 +4,31 @@
 }
 #nav{
     margin: 0;
-    background-image:url(../imagenes/porta56.png);
+    background-image:url(../imagenes/porta.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    @media (max-width: 320px) {
+     
+      #nav{
+        margin: 0;
+        background-image:url(../imagenes/porta320.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    }
+    @media (max-width: 576px) {
+     
+      #nav{
+        margin: 0;
+        background-image:url(../imagenes/porta56.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
 }
   .header .navbar {
     background-color: transparent !important;
@@ -23,7 +44,7 @@
     font-size: 22px;
   
   }
-  .fondoTitulo {
+  #fondo h1 {
     font-family: 'Rozha One', serif;
     font-size: 80px;
     font-weight: 500;
@@ -35,9 +56,9 @@
     
   }
   @media (max-width: 320px) {
-    .fondoTitulo {
+    #fondo h1 {
       font-family: 'Rozha One', serif;
-      font-size: 10px;
+      font-size: 50px;
       font-weight: 500;
       color: #fffefe;
       padding-top: 200px;
@@ -61,7 +82,7 @@
   @media (max-width: 320px) {
     #fondo h2 {
       font-family: 'Rozha One', serif;
-      font-size: 10px;
+      font-size: 20px;
       font-weight: 500;
       color:  #ffffff;
       text-align: center;
@@ -512,3 +533,4 @@ background-color: #e25c61;
           opacity: 1;
         }
       }
+      
