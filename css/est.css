@@ -65,7 +65,7 @@
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
-@media (max-width: 320px) {
+@media (min-width: 375px) {
   #fondo h2 {
     font-family: 'Rozha One', serif;
     font-size: 20px;
