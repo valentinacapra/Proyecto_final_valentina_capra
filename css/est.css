@@ -18,12 +18,11 @@
 .nav-link {
   color: white;
   font-family: 'DM Serif Display', serif;
-  font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 22px; }
 
 #fondo h1 {
-  font-family: 'Bitter', serif;
+  font-family: 'Rozha One', serif;
   font-size: 100px;
   font-weight: 500;
   color: #333333;
@@ -33,8 +32,7 @@
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
   @media (max-width: 600px) {
     #fondo h1 #fondo h1 {
-      font-family: 'DM Serif Display', serif;
-      font-family: 'Merriweather', serif;
+      font-family: 'Rozha One', serif;
       font-size: 50px;
       font-weight: 500;
       color: #333333;
@@ -44,8 +42,7 @@
       animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; } }
 
 #fondo h2 {
-  font-family: 'DM Serif Display', serif;
-  font-family: 'Merriweather', serif;
+  font-family: 'Rozha One', serif;
   font-size: 60px;
   font-weight: 500;
   color: #333333;
@@ -55,7 +52,7 @@
 
 @media (max-width: 600px) {
   #fondo h2 {
-    font-family: 'Bitter', serif;
+    font-family: 'Rozha One', serif;
     font-size: 30px;
     font-weight: 500;
     color: #333333;
@@ -74,7 +71,6 @@
 
 .informacion h4 {
   font-family: 'DM Serif Display', serif;
-  font-family: 'Merriweather', serif;
   font-size: 30px;
   font-weight: 500;
   color: #e25c61; }
@@ -111,7 +107,6 @@
     color: #e25c61;
     text-align: center;
     font-family: 'DM Serif Display', serif;
-    font-family: 'Merriweather', serif;
     font-weight: 500%;
     margin-top: 15px; }
   .Sobre .descripcion {
@@ -128,7 +123,6 @@
     color: white;
     padding: 0 45px 0 45px;
     font-family: 'DM Serif Display', serif;
-    font-family: 'Merriweather', serif;
     font-size: 14px;
     text-align: left; }
 
@@ -138,7 +132,7 @@
   margin-top: 45px;
   padding: 50px; }
   .productos-digitales .title {
-    font-family: 'Merriweather', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 30px;
     color: #6d6d6d; }
   .productos-digitales img .wobble-hor-bottom {
@@ -148,11 +142,18 @@
 /*Trabajos*/
 #trabajos {
   background-color: #f6e7e0; }
-  #trabajos .tittrab {
-    font-family: 'Bitter', serif;
+  #trabajos .text-trab {
+    font-family: 'Rozha One', serif;
+    font-weight: 400;
     font-size: 30px;
     text-align: center;
-    margin-left: 30px; }
+    padding-top: 12px; }
+  #trabajos .text-p {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px; }
   #trabajos .trabajos-contenedor {
     display: flex;
     width: 100%;
