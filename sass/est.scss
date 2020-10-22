@@ -8,7 +8,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
+    @media screen and (max-width:576px){
+      #nav{
+       background-image:url(../imagenes/porta576.png);
+       
+       }
+      }
   }
   
   .header .navbar {
@@ -34,29 +39,19 @@
     text-align: center;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
     animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-    @media (max-width: 600px) {
-        #fondo h1{
-          font-family: 'Rozha One', serif;
-          font-size: 50px;
-          font-weight: 500;
-          color:#333333;
-          padding-top: 200px;
-          text-align: center;
-          -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-          animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-        }
-        @media (min-width: 376px) {
-          #fondo h1{
-            font-family: 'Rozha One', serif;
-            font-size: 30px;
-            font-weight: 500;
-            color:#333333;
-            padding-top: 200px;
-            text-align: center;
-            -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-            animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-          }
- }
+    @media only screen and (min-width: 768px) {
+      #fondo h1{
+        font-family: 'Rozha One', serif;
+        font-size: 50px;
+        font-weight: 500;
+        color:#333333;
+        padding-top: 200px;
+        text-align: center;
+        -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+      }
+    }
+   
   #fondo h2 {
     font-family: 'Rozha One', serif;
     font-size: 60px;
@@ -64,8 +59,8 @@
     color:  #333333;
     text-align: center;
     -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
-    
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  
       @media (max-width: 600px) {
         #fondo h2{
           font-family: 'Rozha One', serif;
@@ -75,6 +70,7 @@
           text-align: center;
           -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
           animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        }
         }
         @media (max-width:376px) {
           #fondo h2{
@@ -87,7 +83,8 @@
             animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
           }
       }
-     
+    }
+    
        /*Sobre Mi*/
 .informacion{
   margin-top: 50px;
@@ -201,6 +198,15 @@
         /*Trabajos*/
 #trabajos{
     background-image:url(../imagenes/fondo.png);
+    @media screen and (max-width:576px){
+     #trabajos{
+      background-image:url(../imagenes/576.png);
+      
+      }
+     }
+    
+    }
+    
     .text-trab{
       font-family: 'Rozha One', serif;
 font-weight: 400;
@@ -234,7 +240,7 @@ font-weight: 400;
         }
     
   }
-}
+
 
   /*Servicios*/
 .title-servicios{

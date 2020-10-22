@@ -30,10 +30,10 @@
   text-align: center;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-  @media (max-width: 600px) {
+  @media only screen and (min-width: 768px) {
     #fondo h1 #fondo h1 {
       font-family: 'Rozha One', serif;
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 500;
       color: #333333;
       padding-top: 200px;
@@ -43,22 +43,30 @@
 
 #fondo h2 {
   font-family: 'Rozha One', serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
   color: #333333;
   text-align: center;
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
-
-@media (max-width: 600px) {
-  #fondo h2 {
-    font-family: 'Rozha One', serif;
-    font-size: 30px;
-    font-weight: 500;
-    color: #333333;
-    text-align: center;
-    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
+  @media (max-width: 600px) {
+    #fondo h2 #fondo h2 {
+      font-family: 'Rozha One', serif;
+      font-size: 30px;
+      font-weight: 500;
+      color: #333333;
+      text-align: center;
+      -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
+  @media (max-width: 376px) {
+    #fondo h2 #fondo h2 {
+      font-family: 'Rozha One', serif;
+      font-size: 10px;
+      font-weight: 500;
+      color: #333333;
+      text-align: center;
+      -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both; } }
 
 /*Sobre Mi*/
 .informacion {
@@ -142,31 +150,37 @@
 /*Trabajos*/
 #trabajos {
   background-image: url(../imagenes/fondo.png); }
-  #trabajos .text-trab {
-    font-family: 'Rozha One', serif;
-    font-weight: 400;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 25px; }
-  #trabajos .text-p {
-    font-family: 'Bitter', serif;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 25px; }
-  #trabajos .trabajos-contenedor {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    padding: 2px;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto; }
-    #trabajos .trabajos-contenedor .trabajosImg {
-      width: 400px;
-      height: 300px;
-      margin-bottom: 30px;
-      object-fit: cover; }
+  @media screen and (max-width: 576px) {
+    #trabajos #trabajos {
+      background-image: url(../imagenes/576.png); } }
+
+.text-trab {
+  font-family: 'Rozha One', serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px; }
+
+.text-p {
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px; }
+
+.trabajos-contenedor {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 2px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto; }
+  .trabajos-contenedor .trabajosImg {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover; }
 
 /*Servicios*/
 .title-servicios {
@@ -208,6 +222,11 @@
 
 .contenedor-servicios {
   background-color: #e25c61;
+  height: auto;
+  width: 100%; }
+
+.contenedor-servicios p {
+  background-color: #F4CC4B;
   height: auto;
   width: 100%; }
 
