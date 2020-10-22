@@ -5,20 +5,10 @@
 
 #nav {
   margin: 0;
-  background-image: url(../imagenes/porta.png);
+  background-image: url(../imagenes/porta56.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-@media (max-width: 320px) {
-  #nav #nav {
-    margin: 0;
-    background-image: url(../imagenes/porta576.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
 }
 
 .header .navbar {
@@ -36,7 +26,7 @@
   font-size: 22px;
 }
 
-#fondo h1 {
+.fondoTitulo {
   font-family: 'Rozha One', serif;
   font-size: 80px;
   font-weight: 500;
@@ -47,10 +37,10 @@
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-@media (max-width: 3200px) {
-  #fondo h1 {
+@media (max-width: 320px) {
+  .fondoTitulo {
     font-family: 'Rozha One', serif;
-    font-size: 50px;
+    font-size: 10px;
     font-weight: 500;
     color: #fffefe;
     padding-top: 200px;
