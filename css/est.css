@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
-@media (max-width: 576px) {
+@media (max-width: 680px) and (orientation: landscape) {
   #nav {
     margin: 0;
     background-image: url(../imagenes/porta56.png);
@@ -33,7 +33,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed; } }
 
-@media (min-width: 500px) and (max-width: 1000px) and (orientation: landscape) {
+@media (min-width: 600px) and (max-width: 1000px) and (orientation: landscape) {
   #nav {
     margin: 0;
     background-image: url(../imagenes/tablet.png);
