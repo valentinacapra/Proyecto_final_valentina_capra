@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed; } }
 
-@media (min-width: 200px) and (max-width: 400px) and (orientation: landscape) {
+@media (min-width: 400px) and (max-width: 200px) and (orientation: landscape) {
   #nav {
     margin: 0;
     background-image: url(../imagenes/320.png);
