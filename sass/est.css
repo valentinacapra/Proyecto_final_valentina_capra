@@ -141,6 +141,15 @@
 }
 
 @media (max-width: 500px) {
+  .informacion h4 .informacion h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #e25c61;
+  }
+}
+
+@media (max-width: 500px) {
   .titulo-infor {
     font-family: 'DM Serif Display', serif;
     font-family: 'Merriweather', serif;
