@@ -17,10 +17,18 @@
     background-repeat: no-repeat;
     background-attachment: fixed; } }
 
-@media (min-width: 400px) and (max-width: 200px) and (orientation: landscape) {
+@media (min-width: 100px) and (max-width: 300px) {
   #nav {
     margin: 0;
-    background-image: url(../imagenes/320.png);
+    background-image: url(../imagenes//320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; } }
+
+@media (max-width: 320px) and (orientation: landscape) {
+  #nav {
+    margin: 0;
+    background-image: url(../imagenes/porta320.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; } }
