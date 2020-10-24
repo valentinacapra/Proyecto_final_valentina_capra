@@ -158,10 +158,10 @@
   color: #e25c61;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .informacion h4 {
     font-family: 'DM Serif Display', serif;
-    font-size: 5px;
+    font-size: 25px;
     font-weight: 500;
     color: #e25c61;
   }
@@ -175,11 +175,11 @@
   color: black;
 }
 
-@media (max-width: 500px) {
-  .informacion p .informacion p {
+@media (max-width: 400px) {
+  .informacion p {
     font-family: 'DM Serif Display', serif;
     font-family: 'Merriweather', serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     color: black;
   }
@@ -190,15 +190,6 @@
   background-color: #efe3d0;
   height: 350px;
   margin-bottom: 45px;
-}
-
-@media (max-width: 600px) {
-  .Sobre .Sobre {
-    text-align: center;
-    background-color: #efe3d0;
-    height: 500px;
-    margin-bottom: 45px;
-  }
 }
 
 .Sobre .title {
@@ -218,18 +209,13 @@
   font-weight: 700%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .Sobre .Sobre {
-    margin-bottom: 30px;
+    text-align: center;
+    background-color: #efe3d0;
+    height: 500px;
+    margin-bottom: 45px;
   }
-}
-
-.Sobre .Sobre.descripcion {
-  color: white;
-  padding: 0 45px 0 45px;
-  font-family: 'DM Serif Display', serif;
-  font-size: 14px;
-  text-align: left;
 }
 
 .productos-digitales {
