@@ -15,7 +15,7 @@
  
   #nav{
     margin: 0;
-    background-image:url(../imagenes/porta56.png);
+    background-image:url(../imagenes/576tab.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,17 +35,17 @@
      
   #nav{
     margin: 0;
-    background-image:url(../imagenes/porta320.png);
+    background-image:url(../imagenes/320.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 }
-@media (min-width: 400px) and (max-width: 670px) {
+@media (min-width: 300px) and (max-width: 670px) {
  
   #nav{
     margin: 0;
-    background-image:url(../imagenes/porta56.png);
+    background-image:url(../imagenes/576tab.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
