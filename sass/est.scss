@@ -258,13 +258,15 @@ font-weight: 400;
       font-size: 30px;
       text-align: center;
       padding-top: 25px;
+      color:#e25c61;
      }
      .text-p{
-      font-family: 'Bitter', serif;
+      font-family: 'Merriweather', serif;
       font-size: 20px;
       text-align: center;
       padding-top: 15px;
       padding-bottom: 25px;
+      color: rgb(78, 76, 76);
 
      }
      
@@ -290,10 +292,10 @@ font-weight: 400;
   /*Servicios*/
 .title-servicios{
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'DM Serif Display', serif;
     font-weight: 600;
     font-size: 30px;
-    color: #5a5a5aee;
+    color:#e25c61;
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
               animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
@@ -338,23 +340,9 @@ font-weight: 400;
             }
 
   }
-  .contenedor-servicios{
+  .contenedor-1{
     
-background-color: #e25c61;
-  height: auto;
-  width: 100%;
-
-    
-}
-.contenedor-servicios p{
-    
-
-  background-color: #F4CC4B;
-  height: auto;
-  width: 100%;
-
-  
-} 
+  }
 
   
   /*contacto*/
