@@ -188,9 +188,17 @@
 .Sobre {
   text-align: center;
   background-color: #efe3d0;
-  height: 400px;
-  padding: 15px;
-  margin-bottom: 55px;
+  height: 350px;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 600px) {
+  .Sobre .Sobre {
+    text-align: center;
+    background-color: #efe3d0;
+    height: 500px;
+    margin-bottom: 45px;
+  }
 }
 
 .Sobre .title {
