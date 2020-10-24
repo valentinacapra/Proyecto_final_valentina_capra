@@ -21,7 +21,7 @@
   }
 }
 
-@media (min-width: 100px) and (max-width: 300px) {
+@media (min-width: 100px) and (max-width: 320px) {
   #nav {
     margin: 0;
     background-image: url(../imagenes/320.png);
