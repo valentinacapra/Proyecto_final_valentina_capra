@@ -364,38 +364,13 @@ textarea {
 .text-foot {
   font-family: 'DM Serif Display', serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 21px;
   color: #ffffff; }
 
-.footer a {
-  color: #ffffff;
-  font-size: 14px;
-  transition-duration: 0.2s; }
+.redes {
+  font-size: 64px;
+  color: #fff0f0; }
 
-.footer a:hover {
-  color: #C1E3EB;
-  text-decoration: none; }
-
-.copy {
-  font-size: 12px;
-  padding: 10px;
-  border-top: 1px solid #FFFFFF; }
-
-.footer-middle {
-  padding-top: 2em;
-  color: white; }
-
-ul.social-network {
-  list-style: none;
-  display: inline;
-  margin-left: 0 !important;
-  padding: 0; }
-
-ul.social-network li {
-  display: inline;
-  margin: 0 5px; }
-
-/* footer social icons */
 /*animaciones*/
 @-webkit-keyframes text-focus-in {
   0% {
