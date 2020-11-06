@@ -290,6 +290,10 @@
   border-radius: 7px;
 }
 
+#videos {
+  padding: 45px;
+}
+
 /*Servicios*/
 #servicioimg {
   background-image: url(../imagenes/fondosevicios.png);
@@ -457,7 +461,7 @@ textarea {
 /*Footer*/
 .footer {
   padding: 40px 0 30px;
-  border-top: 1px solid #F4CC4A;
+  border-top: 20px solid #F4CC4A;
   background: #F4CC4A;
 }
 
@@ -468,9 +472,13 @@ textarea {
   color: #ffffff;
 }
 
-.redes {
+.footer a {
   font-size: 64px;
-  color: #fff0f0;
+  color: #ffffff;
+}
+
+footer a :hover {
+  color: #b0dee9;
 }
 
 /*animaciones*/
