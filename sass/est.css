@@ -448,22 +448,45 @@ textarea {
 }
 
 /*Footer*/
-#contactos {
+footer {
   background-color: #F4CC4A;
-  height: 85px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-left: 250px;
+  height: 250px;
+}
+
+footer ul li {
+  padding: 5px 0px;
+}
+
+.text-footer {
+  color: #FFF;
+  font-weight: 800;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.direccion li p, .contacto li a, .social li a {
+  color: #FFF;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.social li {
+  float: left;
+}
+
+.direccion, .contacto, .social {
+  list-style: none;
+}
+
+.fa {
+  color: #9c9c9c;
+  margin-right: 15px;
+  font-size: 14px;
 }
 
 /*animaciones*/
