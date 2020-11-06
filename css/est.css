@@ -354,9 +354,10 @@ textarea {
   background-color: #F4CC4A;
   height: 85px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
-  row-gap: 85px; }
+  padding-left: 250px; }
 
 /*animaciones*/
 @-webkit-keyframes text-focus-in {
