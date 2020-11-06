@@ -350,6 +350,14 @@ textarea {
   color: white; }
 
 /*Footer*/
+#contactos {
+  background-color: #F4CC4A;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 85px; }
+
 /*animaciones*/
 @-webkit-keyframes text-focus-in {
   0% {
