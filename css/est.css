@@ -237,10 +237,9 @@ img {
 .video {
   background: #fff;
   padding-bottom: 20px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-  width: 23%;
+  width: 30%;
   /* Thumbnails 4 across */
-  margin: 1%;
+  margin: 25px;
   float: left; }
 
 .video figure {
