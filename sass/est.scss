@@ -468,15 +468,16 @@ font-weight: 400;
   border-top: 1px solid #F4CC4A;
   background: #F4CC4A;
 }
-
-footer {
-  
-  color: white;
-  margin-top:100px;
+.txt-railway{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 300;
+  font-size: 20px;
+  color:#ffffff;
 }
 
 footer a {
-  color: #fff;
+ 
+  color: #ffffff;
   font-size: 14px;
   transition-duration: 0.2s;
 }
