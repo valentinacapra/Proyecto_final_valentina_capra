@@ -75,6 +75,14 @@
   font-weight: 600;
   font-size: 22px; }
 
+#redes ul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none; }
+
+#redes a {
+  text-decoration: none; }
+
 #fondo h1 {
   font-family: 'Rozha One', serif;
   font-size: 80px;
@@ -203,7 +211,9 @@
   font-size: 30px;
   text-align: center;
   padding-top: 25px;
-  color: #e25c61; }
+  color: #e25c61;
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
 .text-p {
   font-family: 'Merriweather', serif;
@@ -225,9 +235,13 @@
     width: 400px;
     height: 300px;
     margin-bottom: 30px;
-    object-fit: cover; }
+    object-fit: cover;
+    border-radius: 7px; }
 
 /*Servicios*/
+#servicioimg {
+  background-image: url(../imagenes/fondosevicios.png); }
+
 .title-servicios {
   text-align: center;
   font-family: 'DM Serif Display', serif;

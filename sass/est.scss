@@ -95,6 +95,17 @@
     font-size: 22px;
   
   }
+  #redes{
+    ul li {
+      list-style: none;
+      display: inline-block;
+      text-decoration: none;
+
+    }
+    a{ text-decoration: none;
+    }
+
+  }
   #fondo h1 {
     font-family: 'Rozha One', serif;
     font-size: 80px;
@@ -259,6 +270,8 @@ font-weight: 400;
       text-align: center;
       padding-top: 25px;
       color:#e25c61;
+      -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+              animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
      }
      .text-p{
       font-family: 'Merriweather', serif;
@@ -280,22 +293,27 @@ font-weight: 400;
     margin: auto;
     .trabajosImg{
   
-        width:400px;
-        height: 300px;
-        margin-bottom: 30px;
-        object-fit: cover;
-        }
+      width:400px;
+      height: 300px;
+      margin-bottom: 30px;
+      object-fit: cover;
+      border-radius: 7px;
+      }
     
   }
 
 
   /*Servicios*/
+  #servicioimg{
+    background-image: url(../imagenes/fondosevicios.png);
+  }
 .title-servicios{
     text-align: center;
     font-family: 'DM Serif Display', serif;
     font-weight: 600;
     font-size: 30px;
     color:#e25c61;
+    
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
               animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
@@ -303,6 +321,7 @@ font-weight: 400;
   .servicios{
   margin-top: 100px;
     text-align: center;
+    
     @media screen and (max-width:1000px){
   
         .servicios{
