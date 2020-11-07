@@ -197,8 +197,14 @@
     #trabajos #trabajos {
       background-image: url(../imagenes/576.png); } }
 
-#trabajos img {
-  max-width: 100%; }
+.row {
+  margin: 15px; }
+
+#mas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center; }
 
 /*Servicios*/
 #servicioimg {

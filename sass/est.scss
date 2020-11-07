@@ -251,10 +251,18 @@
      }
     
     }
-    #trabajos img{
-      max-width: 100%;
+    .row {
+      margin: 15px;
     }
-  
+    
+    
+    #mas{display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+          align-content: center;
+          
+      }
+    
   /*Servicios*/
   #servicioimg{
     background-image: url(../imagenes/fondosevicios.png);
