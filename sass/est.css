@@ -267,6 +267,22 @@
   color: #4e4c4c;
 }
 
+#videos .titulo-vid {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 25px;
+  color: #e25c61;
+}
+
+#videos .text-vid {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
 #mas {
   display: -webkit-box;
   display: -ms-flexbox;
