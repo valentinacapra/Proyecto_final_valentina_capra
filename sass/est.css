@@ -241,7 +241,7 @@
   background-image: url(../imagenes/fondosevicios.png);
 }
 
-.row {
+#trabajos .row {
   margin: 15px;
 }
 
