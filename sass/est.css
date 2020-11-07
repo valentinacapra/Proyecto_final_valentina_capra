@@ -245,6 +245,26 @@
   margin: 15px;
 }
 
+#trabajos .text-trab {
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 25px;
+  color: #e79194;
+  -webkit-animation: 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 normal both running tracking-in-expand;
+          animation: 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 normal both running tracking-in-expand;
+}
+
+#trabajos .text-p {
+  font-family: Merriweather, serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #4e4c4c;
+}
+
 #mas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,7 +289,7 @@
   font-family: 'DM Serif Display', serif;
   font-weight: 600;
   font-size: 30px;
-  color: #e25c61;
+  color: #e79194;
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }

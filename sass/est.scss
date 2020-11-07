@@ -246,6 +246,23 @@
     .row {
       margin: 15px;
     }
+    .text-trab {
+      font-family: "Rozha One", serif;
+      font-weight: 400;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 25px;
+      color: #e79194;
+      animation: 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 normal both running tracking-in-expand;
+  }
+  .text-p {
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: rgb(78, 76, 76);
+}
     }
     
     
@@ -265,7 +282,7 @@
     font-family: 'DM Serif Display', serif;
     font-weight: 600;
     font-size: 30px;
-    color:#e25c61;
+    color:#e79194;
     
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
               animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
