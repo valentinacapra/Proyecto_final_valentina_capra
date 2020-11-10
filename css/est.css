@@ -145,8 +145,7 @@
 
 @media (max-width: 400px) {
   .informacion p {
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Merriweather', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     font-weight: 400;
     color: black; } }
